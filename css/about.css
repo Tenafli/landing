@@ -1,0 +1,111 @@
+/* Vision */
+
+#vision {
+	height: 80vh;
+	padding-top: 90px !important;
+	border-bottom: 1px solid whitesmoke;
+}
+
+.about-section {
+	width: 100%;
+	height: 100%;
+	padding-top: 6rem;
+	padding: 0 2rem;
+	display: flex;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.about-section {
+		padding: 0 6rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.about-section {
+		padding: 0 8rem;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.about-section {
+		padding: 0 12rem;
+	}
+}
+
+.vision-title {
+	max-width: 800px;
+}
+
+/* Team */
+
+#team {
+	min-height: 100vh;
+	background-color: #f8f9fa;
+}
+
+#team .team-title {
+	text-align: center;
+	padding: 0 4rem 5rem 4rem;
+}
+
+#team .team-card {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4rem;
+}
+
+#team .team-card .team-card-content {
+	max-width: 285px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+#team .team-image {
+	width: 100%;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	overflow: hidden;
+	background: white;
+}
+
+#team .team-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#rayane-image {
+	filter: contrast(80%);
+}
+
+#maharo-image {
+	object-position: top;
+}
+
+#team .team-about {
+	display: flex;
+	flex-direction: column;
+}
+
+#team .team-name {
+	text-align: center;
+	font-size: 24px;
+}
+
+#team .team-post {
+	text-align: center;
+	font-weight: bold;
+}
+
+#team .team-expertize {
+	text-align: center;
+}
