@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Vision */
 
 #vision {
@@ -11,10 +18,16 @@
 	height: 100%;
 	padding-top: 6rem;
 	padding: 0 2rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	align-items: center;
 	text-align: center;
 }
@@ -66,16 +79,27 @@
 }
 
 #team .team-card {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	margin-bottom: 4rem;
 }
 
 #team .team-card .team-card-content {
 	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	gap: 32px;
 }
 
@@ -83,10 +107,14 @@
 }
 
 #team .team-name-parent a {
-	color: #0c0c0c;
+	color: #0c0c0c !important;
 	text-decoration: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	gap: 6px;
 }
 
@@ -102,20 +130,28 @@
 #team .team-image img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 
 #rayane-image {
-	filter: contrast(80%);
+	-webkit-filter: contrast(80%);
+	        filter: contrast(80%);
 }
 
 #maharo-image {
-	object-position: top;
+	-o-object-position: top;
+	   object-position: top;
 }
 
 #team .team-about {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 #team .team-name {
