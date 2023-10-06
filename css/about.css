@@ -87,6 +87,10 @@
 	filter: contrast(80%);
 }
 
+#maharo-image {
+	object-position: top;
+}
+
 #team .team-about {
 	display: flex;
 	flex-direction: column;
