@@ -16,6 +16,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -41,7 +42,16 @@
 
 .vision-title {
 	max-width: 800px;
+	color: gray;
 }
+
+.vision-title span {
+	color: rgb(17, 17, 17);
+}
+
+.vision-title .main {
+	color: #dc3545;
+} 
 
 /* Team */
 
@@ -62,15 +72,27 @@
 }
 
 #team .team-card .team-card-content {
-	max-width: 285px;
 	width: 100%;
 	display: flex;
+	align-items: center;
 	flex-direction: column;
 	gap: 32px;
 }
 
+#team .team-name-parent {
+}
+
+#team .team-name-parent a {
+	color: #0c0c0c;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
 #team .team-image {
 	width: 100%;
+	max-width: 205px;
 	aspect-ratio: 1;
 	border-radius: 50%;
 	overflow: hidden;
@@ -102,6 +124,7 @@
 }
 
 #team .team-post {
+	display: block;
 	text-align: center;
 	font-weight: bold;
 }
