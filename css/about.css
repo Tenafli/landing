@@ -103,9 +103,6 @@
 	gap: 32px;
 }
 
-#team .team-name-parent {
-}
-
 #team .team-name-parent a {
 	color: #0c0c0c !important;
 	text-decoration: none;
@@ -155,6 +152,7 @@
 }
 
 #team .team-name {
+	white-space: nowrap;
 	text-align: center;
 	font-size: 24px;
 }
