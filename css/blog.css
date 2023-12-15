@@ -1,0 +1,39 @@
+/* blog body */
+#blog-body {
+	/* height: 230vh; */
+	padding-top: 140px !important;
+	border-bottom: 1px solid whitesmoke;
+	background-color: #f8f9fa;
+}
+
+.blog-container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+@media (max-width: 576px) {
+	.blog-container {
+		padding: 0 4rem;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.blog-container {
+		padding: 0 4rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.blog-container {
+		padding: 0 4rem;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.blog-container {
+		padding: 0 3rem;
+	}
+}
