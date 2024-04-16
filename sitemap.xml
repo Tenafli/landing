@@ -8,32 +8,12 @@
 
 
 <url>
-  <loc>https://tenafli.com/</loc>
+  <loc>https://labs.tenafli.com/</loc>
   <lastmod>2024-01-05T21:32:07+00:00</lastmod>
   <priority>1.00</priority>
 </url>
-<url>
-  <loc>https://tenafli.com/pros.html</loc>
-  <lastmod>2024-01-05T21:32:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tenafli.com/blog.html</loc>
-  <lastmod>2024-01-05T21:32:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tenafli.com/about.html</loc>
-  <lastmod>2024-01-05T21:32:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tenafli.com/privacy_policy.html</loc>
-  <lastmod>2024-01-05T21:32:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tenafli.com/index.html</loc>
+
+  <loc>https://labs.tenafli.com/index.html</loc>
   <lastmod>2024-01-05T21:32:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
